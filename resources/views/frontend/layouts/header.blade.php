@@ -50,19 +50,20 @@
 
 							<li>
 								<a href="{{ route('product') }} ">Shop</a>
-							</li>
+                            </li>
 
-							<li class="sale-noti">
+
+							{{-- <li class="sale-noti"> -- membuat font warna merah
 								<a href=" {{ route('product') }} ">Sale</a>
-							</li>
+							</li> Navbar sale di hapus--}}
 
 							<li>
-								<a href=" {{ route('cart') }} ">Features</a>
+								<a href=" {{ route('cart') }} ">Chart</a>
 							</li>
 
-							<li>
+							{{-- <li>
 								<a href=" {{ route('blog') }} ">Blog</a>
-							</li>
+							</li>  Navbar Blog di hapus--}}
 
 							<li>
 								<a href=" {{ route('about') }} ">About</a>

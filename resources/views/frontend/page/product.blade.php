@@ -7,7 +7,7 @@ Product
 @section('content')
 
 <!-- Title Page -->
-<section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url({{ asset('frontend/images/heading-pages-02.jpg')}}">
+<section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url({{ asset('frontend/images/header-02.jpg')}}">
 		<h2 class="l-text2 t-center">
 			Women
 		</h2>
@@ -192,7 +192,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-									<img src="{{ asset('frontend/images/item-02.jpg')}}" alt="IMG-PRODUCT">
+									<img src="{{ asset('frontend/images/product-1.jpg')}}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -225,7 +225,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/item-03.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-2.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -258,7 +258,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/item-05.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-3.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -291,7 +291,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
-									<img src="frontend/images/item-07.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-4.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -328,7 +328,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-									<img src="frontend/images/item-01.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-5.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -361,7 +361,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/item-14.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-6.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -394,7 +394,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-									<img src="frontend/images/item-06.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-7.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -427,7 +427,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/item-08.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-8.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -460,7 +460,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/item-10.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-9.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -493,7 +493,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
-									<img src="frontend/images/item-11.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-10.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -530,7 +530,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-									<img src="frontend/images/item-12.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-11.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -563,7 +563,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/item-15.jpg" alt="IMG-PRODUCT">
+									<img src="frontend/images/product-12.jpg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">

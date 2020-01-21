@@ -7,7 +7,7 @@ Cart
 @section('content')
 
 	<!-- Title Page -->
-	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(frontend/images/heading-pages-01.jpg);">
+	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(frontend/images/header-3.jpg);">
 		<h2 class="l-text2 t-center">
 			Cart
 		</h2>
@@ -179,5 +179,5 @@ Cart
 			</div>
 		</div>
 	</section>
-	
+
 @endsection
