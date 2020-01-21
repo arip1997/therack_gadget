@@ -667,7 +667,7 @@
                     "email": "taylor@laravel.com"
                 }
             ],
-            "description": "Powerful REPL for the Laravel framework.",
+            "description": "Powerful REPL for the  framework.",
             "keywords": [
                 "REPL",
                 "Tinker",

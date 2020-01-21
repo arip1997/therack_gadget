@@ -66,4 +66,9 @@ class PageController extends Controller
         return view ('frontend.page.formlogin');
     }
 
+    public function homenoauth()
+    {
+        return view ('frontend.page.homenoauth');
+    }
+
 }

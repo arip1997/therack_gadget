@@ -28,6 +28,8 @@ Route::get('/blogdetail' , 'Frontend\PageController@blogdetail')->name('blogdeta
 Route::get('/about' , 'Frontend\PageController@about')->name('about');
 Route::get('/contact' , 'Frontend\PageController@contact')->name('contact');
 Route::get('/formlogin' , 'Frontend\PageController@formlogin')->name('formlogin');
+Route::get('/formlogin' , 'Frontend\PageController@homenoauth')->name('homenoauth');
+
 
 Auth::routes();
 

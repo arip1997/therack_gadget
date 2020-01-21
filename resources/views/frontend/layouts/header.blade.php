@@ -82,11 +82,11 @@
 						<img src="{{ asset('frontend/images/icons/icon-header-01.png')}}" class="header-icon1" alt="ICON">
 					</a>
 
-					<span class="linedivide1"></span>
+					{{-- <span class="linedivide1"></span> garis pembatas
 
 					<div class="header-wrapicon2">
 						<img src="{{ asset('frontend/images/icons/icon-header-02.png')}}" class="header-icon1 js-show-header-dropdown" alt="ICON">
-						<span class="header-icons-noti">0</span>
+						<span class="header-icons-noti">0</span>  icon keranjang--}}
 
 						<!-- Header cart noti -->
 						<div class="header-cart header-dropdown">
