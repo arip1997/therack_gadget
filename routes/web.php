@@ -28,8 +28,15 @@ Route::get('/blogdetail' , 'Frontend\PageController@blogdetail')->name('blogdeta
 Route::get('/about' , 'Frontend\PageController@about')->name('about');
 Route::get('/contact' , 'Frontend\PageController@contact')->name('contact');
 Route::get('/formlogin' , 'Frontend\PageController@formlogin')->name('formlogin');
-Route::get('/formlogin' , 'Frontend\PageController@homenoauth')->name('homenoauth');
+Route::get('/homenoauth' , 'Frontend\PageController@homenoauth')->name('homenoauth');
 
+
+Route::get('/admin','AdminController@admin');
+Route::get('/admin', 'Frontend\PageController@admin')->name('admin');
+
+// nama',function(){
+//     return view('cobalagi');
+// });
 
 Auth::routes();
 

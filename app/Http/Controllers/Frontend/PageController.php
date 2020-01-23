@@ -71,4 +71,15 @@ class PageController extends Controller
         return view ('frontend.page.homenoauth');
     }
 
+    public function admin()
+    {
+        return view ('frontend.page.admin');
+    }
+
+    public function coba()
+    {
+        return view ('layouts.coba');
+    }
+
+
 }
