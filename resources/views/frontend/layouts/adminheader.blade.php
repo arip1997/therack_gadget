@@ -27,7 +27,7 @@
                                 <li><a href="#">A Separated link</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Support </a></li>
+                        <li><a href="#">Admin </a></li>
                         <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img src="adminlte/images/user.png" class="nav-avatar" />
                             <b class="caret"></b></a>

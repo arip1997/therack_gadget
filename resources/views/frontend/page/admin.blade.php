@@ -10,7 +10,7 @@ Admin
         <div class="row">
             <div class="span3">
                 <div class="sidebar">
-                    <ul class="widget widget-menu unstyled">
+                    {{-- <ul class="widget widget-menu unstyled">
                         <li class="active"><a href="index.html"><i class="menu-icon icon-dashboard"></i>Dashboard
                         </a></li>
                         <li><a href="activity.html"><i class="menu-icon icon-bullhorn"></i>News Feed </a>
@@ -19,7 +19,7 @@ Admin
                             11</b> </a></li>
                         <li><a href="task.html"><i class="menu-icon icon-tasks"></i>Tasks <b class="label orange pull-right">
                             19</b> </a></li>
-                    </ul>
+                    </ul> --}}
                     <!--/.widget-nav-->
 
 
@@ -91,6 +91,17 @@ Admin
                                         <div class="stream-headline">
 
                                             <div class="stream-text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
                 </div><!--/.content-->
 
