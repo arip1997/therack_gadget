@@ -10,25 +10,24 @@ Admin
         <div class="row">
             <div class="span3">
                 <div class="sidebar">
-                    {{-- <ul class="widget widget-menu unstyled">
-                        <li class="active"><a href="index.html"><i class="menu-icon icon-dashboard"></i>Dashboard
-                        </a></li>
-                        <li><a href="activity.html"><i class="menu-icon icon-bullhorn"></i>News Feed </a>
-                        </li>
-                        <li><a href="message.html"><i class="menu-icon icon-inbox"></i>Inbox <b class="label green pull-right">
-                            11</b> </a></li>
-                        <li><a href="task.html"><i class="menu-icon icon-tasks"></i>Tasks <b class="label orange pull-right">
-                            19</b> </a></li>
-                    </ul> --}}
-                    <!--/.widget-nav-->
-
+                            {{-- <ul class="widget widget-menu unstyled">
+                                <li class="active"><a href="index.html"><i class="menu-icon icon-dashboard"></i>Dashboard
+                                </a></li>
+                                <li><a href="activity.html"><i class="menu-icon icon-bullhorn"></i>News Feed </a>
+                                </li>
+                                <li><a href="message.html"><i class="menu-icon icon-inbox"></i>Inbox <b class="label green pull-right">
+                                    11</b> </a></li>
+                                <li><a href="task.html"><i class="menu-icon icon-tasks"></i>Tasks <b class="label orange pull-right">
+                                    19</b> </a></li>
+                            </ul> --}}
+                            <!--/.widget-nav-->
 
                     <ul class="widget widget-menu unstyled">
-                        <li><a href="ui-button-icon.html"><i class="menu-icon icon-bold"></i> Buttons </a></li>
-                        <li><a href="ui-typography.html"><i class="menu-icon icon-book"></i>Typography </a></li>
-                        <li><a href="form.html"><i class="menu-icon icon-paste"></i>Forms </a></li>
-                        <li><a href="table.html"><i class="menu-icon icon-table"></i>Tables </a></li>
-                        <li><a href="charts.html"><i class="menu-icon icon-bar-chart"></i>Charts </a></li>
+                        <li><a href="ui-button-icon.html"><i class="menu-icon icon-shopping-cart"></i> Products </a></li>
+                        <li><a href="ui-typography.html"><i class="menu-icon icon-list"></i>Categories </a></li>
+                        <li><a href="form.html"><i class="menu-icon icon-paste"></i>Roles </a></li>
+                        <li><a href="table.html"><i class="menu-icon icon-table"></i>Users </a></li>
+                        <li><a href="charts.html"><i class="menu-icon icon-bar-chart"></i>Transaction </a></li>
                     </ul>
                     <!--/.widget-nav-->
                     <ul class="widget widget-menu unstyled">
@@ -44,24 +43,32 @@ Admin
                         <li><a href="#"><i class="menu-icon icon-signout"></i>Logout </a></li>
                     </ul>
                 </div>
-            </div><!--/.sidebar-->
+            </div>
+
+            <!--/.sidebar-->
             <div class="span9">
                 <div class="content">
 
                     <div class="module">
                         <div class="module-head">
-                            <h3>News Feed</h3>
+                            <h3> Admin </h3>
                         </div>
+
                         <div class="module-body">
                             <div class="stream-composer media">
                                 <a href="#" class="media-avatar medium pull-left">
                                     <img src="adminlte/images/user.png">
                                 </a>
-                                <div class="media-body">
+
+                                <h5> Saya Admin Dari Marketplace Platinum </h5>
+
+
+                                {{-- <div class="media-body">
                                     <div class="row-fluid">
                                         <textarea class="span12" style="height: 70px; resize: none;"></textarea>
-                                    </div>
-                                    <div class="clearfix">
+                                    </div> --}}
+
+                                    {{-- <div class="clearfix">
                                         <a href="#" class="btn btn-primary pull-right">
                                             Update Status
                                         </a>
@@ -74,7 +81,9 @@ Admin
                                         <a href="#" class="btn btn-small" rel="tooltip" data-placement="top" data-original-title="Pin your location">
                                             <i class="icon-map-marker shaded"></i>
                                         </a>
-                                    </div>
+                                    </div>  kolom text area dan mengambil data--}}
+
+
                                 </div>
                             </div>
 
@@ -82,30 +91,36 @@ Admin
                                 <div class="media stream new-update">
                                     <a href="#">
                                         <i class="icon-refresh shaded"></i>
-                                        11 updates
+                                        Tentang Lainya
                                     </a>
                                 </div>
                                 <div class="media stream">
 
-                                    <div class="media-body">
+
+
+                                    {{-- <div class="media-body">
                                         <div class="stream-headline">
 
-                                            <div class="stream-text">
-                                            </div>
-                                        </div>
+                                    <div class="stream-text">
                                     </div>
                                 </div>
                             </div>
+
+                        </div> Media Foto, Video Upload--}}
+
+
                         </div>
-                    </div>
-                </div>
-            </div>
+
+
+                        </div>
+        </div>
+        </div>
+        </div>
         </div>
 
 
-                </div><!--/.content-->
-
-        </div><!--/.span3-->
+    </div><!--/.content-->
+</div><!--/.span3-->
 
 
 
