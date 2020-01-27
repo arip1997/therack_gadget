@@ -1,4 +1,4 @@
-@extends('frontend.layouts.master')
+@extends('noauth.layouts.master')
 
 @section('title')
 Home
@@ -547,7 +547,7 @@ Home
 	</section>
 
 
-	<!-- Blog -->
+	{{-- <!-- Blog -->
 	<section class="blog bgwhite p-t-94 p-b-65">
 		<div class="container">
 			<div class="sec-title p-b-52">
@@ -630,9 +630,9 @@ Home
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 
-	<!-- Instagram -->
+	{{-- <!-- Instagram -->
 	<section class="instagram p-t-20">
 		<div class="sec-title p-b-52 p-l-15 p-r-15">
 			<h3 class="m-text5 t-center">
@@ -751,7 +751,7 @@ Home
 				</a>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 
 	<!-- Shipping -->
 	<section class="shipping bgwhite p-t-62 p-b-46">

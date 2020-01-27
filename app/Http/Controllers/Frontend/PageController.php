@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
+    // Front End
     public function home()
     {
         return view ('frontend.page.home');
@@ -68,18 +69,26 @@ class PageController extends Controller
 
     public function homenoauth()
     {
-        return view ('frontend.page.homenoauth');
+        return view ('authhome.page.homenoauth');
     }
 
     public function admin()
     {
-        return view ('frontend.page.admin');
+        return view ('backend.page.admin');
     }
 
     public function coba()
     {
         return view ('layouts.coba');
     }
+
+    // Back End
+
+
+
+
+
+
 
 
 }

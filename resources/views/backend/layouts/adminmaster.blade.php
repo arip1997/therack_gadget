@@ -13,11 +13,11 @@
             rel='stylesheet'>
     </head>
 
-    @include('frontend.layouts.adminheader')
+    @include('backend.layouts.adminheader')
 
     @yield('content')
 
-    @include('frontend.layouts.adminfooter')
+    @include('backend.layouts.adminfooter')
 
     <script src="adminlte/scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
     <script src="adminlte/scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
