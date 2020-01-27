@@ -67,9 +67,9 @@ class PageController extends Controller
         return view ('frontend.page.formlogin');
     }
 
-    public function homenoauth()
+    public function homeauth()
     {
-        return view ('authhome.page.homenoauth');
+        return view ('authhome.page.homeauth');
     }
 
     public function admin()
@@ -83,6 +83,12 @@ class PageController extends Controller
     }
 
     // Back End
+
+    public function products()
+    {
+        return view ('backend.page.products');
+    }
+
 
 
 

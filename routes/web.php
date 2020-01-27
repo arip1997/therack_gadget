@@ -15,7 +15,7 @@
 // });
 
 
-
+        //Front End
 Route::get('/' , 'Frontend\PageController@home1')->name('home');
 Route::get('/home1' , 'Frontend\PageController@home1')->name('home1');
 Route::get('/home2' , 'Frontend\PageController@home2')->name('home2');
@@ -28,8 +28,11 @@ Route::get('/blogdetail' , 'Frontend\PageController@blogdetail')->name('blogdeta
 Route::get('/about' , 'Frontend\PageController@about')->name('about');
 Route::get('/contact' , 'Frontend\PageController@contact')->name('contact');
 Route::get('/formlogin' , 'Frontend\PageController@formlogin')->name('formlogin');
-Route::get('/homenoauth' , 'Frontend\PageController@homenoauth')->name('homenoauth');
+Route::get('/homeauth' , 'Frontend\PageController@homeauth')->name('homeauth');
 
+
+            //Back End
+Route::get('/products' , 'Frontend\PageController@products')->name('products');
 
 Route::get('/admin','AdminController@admin');
 Route::get('/admin', 'Frontend\PageController@admin')->name('admin');

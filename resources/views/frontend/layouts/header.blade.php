@@ -12,26 +12,26 @@
             </div>
 
             <span class="topbar-child1">
-                Bebas Ongkir Setiap Tanggal 1
+                Ada Free Ongkir Setiap Tanggal 1
             </span>
 
-            <div class="topbar-child2">
-                {{-- <span class="topbar-email">
+            {{--  <div class="topbar-child2">
+                <span class="topbar-email">
                     fashe@example.com
-                </span> --}}
+                </span>
 
-                {{-- <div class="topbar-language rs1-select2">
+                <div class="topbar-language rs1-select2">
                     <select class="selection-1" name="time">
                         <option>USD</option>
                         <option>EUR</option>
                     </select>
-                </div> --}}
-            </div>
+                </div>
+            </div>  --}}
         </div>
 
         <div class="wrap_header">
             <!-- Logo -->
-            <a href="{{ route('home1') }}" class="logo">
+            <a href= "{{ route('home1') }}" class="logo">
                 <img src="{{ asset('frontend/images/icons/logo.png')}}" alt="IMG-LOGO">
             </a>
 
@@ -41,29 +41,28 @@
                     <ul class="main_menu">
                         <li>
                             <a href=" {{ route('home1') }} ">Home</a>
-                            {{-- <ul class="sub_menu">
+                            {{--  <ul class="sub_menu">
                                 <li><a href=" {{ route('home1') }} " >Homepage V1</a></li>
                                 <li><a href=" {{ route('home2') }} ">Homepage V2</a></li>
                                 <li><a href=" {{ route('home3') }} ">Homepage V3</a></li>
-                            </ul> --}}
+                            </ul>  --}}
                         </li>
 
                         <li>
                             <a href="{{ route('product') }} ">Shop</a>
                         </li>
 
-
-                        {{-- <li class="sale-noti"> -- membuat font warna merah
+                        <li>  {{-- class="sale-noti" --}}
                             <a href=" {{ route('product') }} ">Sale</a>
-                        </li> Navbar sale di hapus--}}
-
-                        <li>
-                            <a href=" {{ route('cart') }} ">Chart</a>
                         </li>
 
-                        {{-- <li>
+                        <li>
+                            <a href=" {{ route('cart') }} ">Features</a>
+                        </li>
+
+                        <li>
                             <a href=" {{ route('blog') }} ">Blog</a>
-                        </li>  Navbar Blog di hapus--}}
+                        </li>
 
                         <li>
                             <a href=" {{ route('about') }} ">About</a>
@@ -78,14 +77,15 @@
 
             <!-- Header Icon -->
             <div class="header-icons">
-                <a href="home" class="header-wrapicon1 dis-block">
+                <a href=" {{ route('home') }} " class="header-wrapicon1 dis-block">
                     <img src="{{ asset('frontend/images/icons/icon-header-01.png')}}" class="header-icon1" alt="ICON">
                 </a>
 
-                {{-- <span class="linedivide1"></span> garis pembatas
-                <div class="header-wrapicon2">
+                {{--  <span class="linedivide1"></span> garis pembatas --}}
+
+                {{--  <div class="header-wrapicon2">
                     <img src="{{ asset('frontend/images/icons/icon-header-02.png')}}" class="header-icon1 js-show-header-dropdown" alt="ICON">
-                    <span class="header-icons-noti">0</span>  icon keranjang--}}
+                    <span class="header-icons-noti">0</span>
 
                     <!-- Header cart noti -->
                     <div class="header-cart header-dropdown">
@@ -159,7 +159,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>  --}}
             </div>
         </div>
     </div>
@@ -274,22 +274,22 @@
             <ul class="main-menu">
                 <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
                     <span class="topbar-child1">
-                        Free shipping for standard order over $100
+                        Bebas Ongkir Setiap Tanggal 1
                     </span>
                 </li>
 
                 <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
                     <div class="topbar-child2-mobile">
-                        <span class="topbar-email">
+                        {{--  <span class="topbar-email">
                             fashe@example.com
-                        </span>
+                        </span>  --}}
 
-                        <div class="topbar-language rs1-select2">
+                        {{--  <div class="topbar-language rs1-select2">
                             <select class="selection-1" name="time">
                                 <option>USD</option>
                                 <option>EUR</option>
                             </select>
-                        </div>
+                        </div>  --}}
                     </div>
                 </li>
 

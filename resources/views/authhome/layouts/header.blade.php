@@ -82,11 +82,11 @@
 						<img src="{{ asset('frontend/images/icons/icon-header-01.png')}}" class="header-icon1" alt="ICON">
 					</a>
 
-					{{-- <span class="linedivide1"></span> garis pembatas
+					<span class="linedivide1"></span>
 
 					<div class="header-wrapicon2">
 						<img src="{{ asset('frontend/images/icons/icon-header-02.png')}}" class="header-icon1 js-show-header-dropdown" alt="ICON">
-						<span class="header-icons-noti">0</span>  icon keranjang--}}
+						<span class="header-icons-noti">0</span>
 
 						<!-- Header cart noti -->
 						<div class="header-cart header-dropdown">
@@ -275,7 +275,7 @@
 				<ul class="main-menu">
 					<li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
 						<span class="topbar-child1">
-							Free shipping for standard order over $100
+							Bebas Ongkir Setiap Tanggal 1
 						</span>
 					</li>
 

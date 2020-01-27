@@ -1,4 +1,4 @@
-@extends('noauth.layouts.master')
+@extends('authhome.layouts.master')
 
 @section('title')
 Home
