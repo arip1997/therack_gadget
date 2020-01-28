@@ -49,6 +49,9 @@ Route::get('/blogdetailauth' , 'Frontend\PageController@blogdetailauth')->name('
 Route::get('/contactauth' , 'Frontend\PageController@contactauth')->name('contactauth');
 Route::get('/aboutauth' , 'Frontend\PageController@aboutauth')->name('aboutauth');
 
+Route::get('/ubahpassword' , 'Frontend\PageController@ubahpassword')->name('ubahpassword');
+Route::get('/suksesubah' , 'Frontend\PageController@suksesubah')->name('suksesubah');
+
 // nama',function(){
 //     return view('cobalagi');
 // });

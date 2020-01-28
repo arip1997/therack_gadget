@@ -32,7 +32,8 @@
 			<div class="wrap_header">
 				<!-- Logo -->
 				<a href="{{ route('home1') }}" class="logo">
-					<img src="{{ asset('frontend/images/icons/logo.png')}}" alt="IMG-LOGO">
+                    <img src="{{ asset('frontend/images/icons/logo.png')}}" alt="IMG-LOGO">
+
 				</a>
 
 				<!-- Menu -->
@@ -40,7 +41,8 @@
 					<nav class="menu">
 						<ul class="main_menu">
 							<li>
-								<a href=" {{ route('home1') }} ">Home</a>
+                                <a href=" {{ route('homeauth') }} "> Home</a>
+
 								{{-- <ul class="sub_menu">
 									<li><a href=" {{ route('home1') }} " >Homepage V1</a></li>
 									<li><a href=" {{ route('home2') }} ">Homepage V2</a></li>
@@ -78,6 +80,31 @@
 
 				<!-- Header Icon -->
 				<div class="header-icons">
+                    {{--  <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                        Hallo {{ Auth::user()->name }} <span class="caret"></span>
+                    </a> menamplkan nama yang telah authentivication --}}
+
+                    <li class="nav-item dropdown">
+                        <!--Pemberian Nama dari Authentivikasi -->
+                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                             Hallo {{ Auth::user()->name }} <span class="caret"></span>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                             document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
+                        </div>
+                    </li>
+
+                    <span class="linedivide1"></span>
+
 					<a href="home" class="header-wrapicon1 dis-block">
 						<img src="{{ asset('frontend/images/icons/icon-header-01.png')}}" class="header-icon1" alt="ICON">
 					</a>

@@ -7,7 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Platinum Gadget') }}</title>
+    <title> Platinum Gadget </title>
+    {{--  {{ config('app.name', 'Platinum Gadget') }}  menampilkan judul nama Laravel di title --}}
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -21,7 +22,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        {{--  <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     Platinum Gadget
@@ -70,7 +71,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav>  --}}
 
         <main class="py-4">
             @yield('content')

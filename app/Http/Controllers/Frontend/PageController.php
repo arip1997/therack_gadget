@@ -125,7 +125,16 @@ class PageController extends Controller
     {
         return view ('authhome.page.contactauth');
     }
+        //Ubah Password
+    public function ubahpassword()
+    {
+        return view ('auth.passwords.ubahpassword');
+    }
 
+    public function suksesubah()
+    {
+        return view ('auth.passwords.suksesubah');
+    }
 
 
 

@@ -45,7 +45,7 @@
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
                                     <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
+                                        {{ __('Ingatkan Saya!') }}
                                     </label>
                                 </div>
                             </div>
@@ -57,10 +57,22 @@
                                     {{ __('Login') }}
                                 </button>
 
+                                <a class="btn btn-link" href="{{ route('register') }}">
+                                    {{ __('Daftar') }}
+                                </a>
+
+
                                 @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
+
+                                <a class="btn btn-link" href="{{ route('ubahpassword') }}">
+                                    {{ __('Lupa Password?') }}
+                                </a>
+
+                                    {{--  <a class="btn btn-link" href="{{ route('password.request') }}">
+                                        {{ __('Lupa Password?') }}
+                                    </a>  lupa password versi laravel--}}
+
+
                                 @endif
                             </div>
                         </div>
