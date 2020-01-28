@@ -28,7 +28,7 @@ Route::get('/blogdetail' , 'Frontend\PageController@blogdetail')->name('blogdeta
 Route::get('/about' , 'Frontend\PageController@about')->name('about');
 Route::get('/contact' , 'Frontend\PageController@contact')->name('contact');
 Route::get('/formlogin' , 'Frontend\PageController@formlogin')->name('formlogin');
-Route::get('/homeauth' , 'Frontend\PageController@homeauth')->name('homeauth');
+
 
 
             //Back End
@@ -38,7 +38,16 @@ Route::get('/admin','AdminController@admin');
 Route::get('/admin', 'Frontend\PageController@admin')->name('admin');
 
 
+            //Authentivication
 
+Route::get('/homeauth' , 'Frontend\PageController@homeauth')->name('homeauth');
+Route::get('/productauth' , 'Frontend\PageController@productauth')->name('productauth');
+Route::get('/productdetailauth' , 'Frontend\PageController@productdetailauth')->name('productdetailauth');
+Route::get('/cartauth' , 'Frontend\PageController@cartauth')->name('cartauth');
+Route::get('/blogauth' , 'Frontend\PageController@blogauth')->name('blogauth');
+Route::get('/blogdetailauth' , 'Frontend\PageController@blogdetailauth')->name('blogdetailauth');
+Route::get('/contactauth' , 'Frontend\PageController@contactauth')->name('contactauth');
+Route::get('/aboutauth' , 'Frontend\PageController@aboutauth')->name('aboutauth');
 
 // nama',function(){
 //     return view('cobalagi');

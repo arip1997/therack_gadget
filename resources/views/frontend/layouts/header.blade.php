@@ -12,7 +12,7 @@
             </div>
 
             <span class="topbar-child1">
-                Ada Free Ongkir Setiap Tanggal 1
+                Bebas Free Ongkir Setiap Tanggal 1
             </span>
 
             {{--  <div class="topbar-child2">

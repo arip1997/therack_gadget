@@ -67,11 +67,6 @@ class PageController extends Controller
         return view ('frontend.page.formlogin');
     }
 
-    public function homeauth()
-    {
-        return view ('authhome.page.homeauth');
-    }
-
     public function admin()
     {
         return view ('backend.page.admin');
@@ -89,7 +84,47 @@ class PageController extends Controller
         return view ('backend.page.products');
     }
 
+    // Authentivication
 
+    public function homeauth()
+    {
+        return view ('authhome.page.homeauth');
+    }
+
+    public function productauth()
+    {
+        return view ('authhome.page.productauth');
+    }
+
+    public function productdetailauth()
+    {
+        return view ('authhome.page.productdetailauth');
+    }
+
+    public function cartauth()
+    {
+        return view ('authhome.page.cartauth');
+    }
+
+    public function blogauth()
+    {
+        return view ('authhome.page.blogauth');
+    }
+
+    public function blogdetailauth()
+    {
+        return view ('authhome.page.blogdetailauth');
+    }
+
+    public function aboutauth()
+    {
+        return view ('authhome.page.aboutauth');
+    }
+
+    public function contactauth()
+    {
+        return view ('authhome.page.contactauth');
+    }
 
 
 

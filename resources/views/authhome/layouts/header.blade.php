@@ -1,4 +1,4 @@
-	<!-- Header -->
+<!-- Header -->
 	<header class="header1">
 		<!-- Header desktop -->
 		<div class="container-menu-header">
@@ -49,7 +49,7 @@
 							</li>
 
 							<li>
-								<a href="{{ route('product') }} ">Shop</a>
+								<a href="{{ route('productauth') }} ">Shop</a>
                             </li>
 
 
@@ -58,7 +58,7 @@
 							</li> Navbar sale di hapus--}}
 
 							<li>
-								<a href=" {{ route('cart') }} ">Cart</a>
+								<a href=" {{ route('cartauth') }} ">Cart</a>
 							</li>
 
 							{{-- <li>
@@ -66,11 +66,11 @@
 							</li>  Navbar Blog di hapus--}}
 
 							<li>
-								<a href=" {{ route('about') }} ">About</a>
+								<a href=" {{ route('aboutauth') }} ">About</a>
 							</li>
 
 							<li>
-								<a href=" {{ route('contact') }} ">Contact</a>
+								<a href=" {{ route('contactauth') }} ">Contact</a>
 							</li>
 						</ul>
 					</nav>
