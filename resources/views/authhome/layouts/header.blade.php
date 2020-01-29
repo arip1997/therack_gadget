@@ -31,7 +31,7 @@
 
 			<div class="wrap_header">
 				<!-- Logo -->
-				<a href="{{ route('home1') }}" class="logo">
+				<a href="{{ route('homeauth') }}" class="logo">
                     <img src="{{ asset('frontend/images/icons/logo.png')}}" alt="IMG-LOGO">
 
 				</a>

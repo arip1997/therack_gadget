@@ -186,13 +186,15 @@ Product
 						</span>
 					</div> --}}
 
-					<!-- Product -->
+                    <!-- Product -->
+                    @foreach ( $gambars as $g )
 					<div class="row">
 						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
-							<!-- Block2 -->
-							<div class="block2">
+                            <!-- Block2 -->
+
+							<div class="block2-txt p-t-20">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-									<img src="{{ asset('frontend/images/product-1.jpg')}}" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -225,7 +227,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/product-2.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -258,7 +260,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/product-3.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}"alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -291,7 +293,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
-									<img src="frontend/images/product-4.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -328,7 +330,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-									<img src="frontend/images/product-5.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -361,7 +363,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/product-6.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -394,7 +396,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-									<img src="frontend/images/product-7.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}"alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -427,7 +429,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/product-8.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -460,7 +462,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/product-9.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -493,7 +495,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
-									<img src="frontend/images/product-10.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}"alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -530,7 +532,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-									<img src="frontend/images/product-11.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -563,7 +565,7 @@ Product
 							<!-- Block2 -->
 							<div class="block2">
 								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="frontend/images/product-12.jpg" alt="IMG-PRODUCT">
+									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -591,13 +593,16 @@ Product
 								</div>
 							</div>
 						</div>
-					</div>
+                    </div>
+                    @endforeach
+
 
 					<!-- Pagination -->
 					<div class="pagination flex-m flex-w p-t-26">
 						<a href="#" class="item-pagination flex-c-m trans-0-4 active-pagination">1</a>
 						<a href="#" class="item-pagination flex-c-m trans-0-4">2</a>
-					</div>
+                    </div>
+
 				</div>
 			</div>
 		</div>

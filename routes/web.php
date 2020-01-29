@@ -52,6 +52,10 @@ Route::get('/aboutauth' , 'Frontend\PageController@aboutauth')->name('aboutauth'
 Route::get('/ubahpassword' , 'Frontend\PageController@ubahpassword')->name('ubahpassword');
 Route::get('/suksesubah' , 'Frontend\PageController@suksesubah')->name('suksesubah');
 
+
+  //Insert Gambar
+Route::get('/upload', 'UploadController@upload');
+Route::post('/upload/proses', 'UploadController@proses_upload');
 // nama',function(){
 //     return view('cobalagi');
 // });

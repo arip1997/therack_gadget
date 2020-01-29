@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Frontend;
+use App\Gambar;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -30,7 +31,10 @@ class PageController extends Controller
 
     public function product()
     {
-        return view ('frontend.page.product');
+        $gambars = Gambar::get();
+        // return view ('frontend.page.product');
+        return view('frontend.page.product',['gambars' => $gambars]);
+
     }
 
     public function productdetail()
@@ -135,6 +139,10 @@ class PageController extends Controller
     {
         return view ('auth.passwords.suksesubah');
     }
+
+
+
+
 
 
 
