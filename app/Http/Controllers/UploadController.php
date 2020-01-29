@@ -15,7 +15,10 @@ class UploadController extends Controller
 
     public function proses_upload(Request $request){
 		$this->validate($request, [
-			'file' => 'required',
+            'file' => 'required',
+            'nama_barang' => 'required',
+            'harga' => 'required',
+            'stok' => 'required',
 			'keterangan' => 'required',
 		]);
 
@@ -32,6 +35,9 @@ class UploadController extends Controller
 
         Gambar::create([
             'file' => $nama_file,
+            'nama_barang' => $request->nama_barang,
+            'harga' => $request->harga,
+            'stok' => $request->stok,
 		    'keterangan' => $request->keterangan,
         ]);
 
