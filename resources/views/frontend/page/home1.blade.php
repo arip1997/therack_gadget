@@ -174,7 +174,8 @@ Home
 				</h3>
 			</div>
 
-			<!-- Slide2 -->
+            <!-- Slide2 -->
+            @foreach ( $gambars as $g )
 			<div class="wrap-slick2">
 				<div class="slick2">
 
@@ -182,7 +183,7 @@ Home
 						<!-- Block2 -->
 						<div class="block2">
 							<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-								<img src="{{ asset('frontend/images/item-02.jpg')}}" alt="IMG-PRODUCT">
+								<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 								<div class="block2-overlay trans-0-4">
 									<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -201,11 +202,11 @@ Home
 
 							<div class="block2-txt p-t-20">
 								<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-									Herschel supply co 25l
+									<center>{{ $g->nama_barang }}</center>
 								</a>
 
 								<span class="block2-price m-text6 p-r-5">
-									$75.00
+									<center>Rp.{{ $g->harga }}</center>
 								</span>
 							</div>
 						</div>
@@ -451,7 +452,7 @@ Home
 					</div>
 				</div>
 			</div>
-
+@endforeach
 		</div>
 	</section>
 

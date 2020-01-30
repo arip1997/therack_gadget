@@ -187,13 +187,13 @@ Product
 					</div> --}}
 
                     <!-- Product -->
-                    @foreach ( $gambars as $g )
+
 					<div class="row">
-						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
-                            <!-- Block2 -->
+						{{--  <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <!-- Product Tanpa Label-->
 
 							<div class="block2-txt p-t-20">
-								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+								<div class="block2-img wrap-pic-w of-hidden pos-relative block2">
 									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
@@ -213,18 +213,480 @@ Product
 
 								<div class="block2-txt p-t-20">
 									<a href=" {{ route('productdetail') }} " class="block2-name dis-block s-text3 p-b-5">
-                                        {{ $g->nama_barang }}
+                                        <center>{{ $g->nama_barang }}</center>
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
-										Rp.{{ $g->harga }}
+										<center>Rp.{{ $g->harga }}</center>
 									</span>
 								</div>
-							</div>
-						</div>
+                            </div>  --}}
+
+
+                            <!-- Product Menggunakan Label Sale -->
+
+							{{--  <div class="block2-txt p-t-20">
+								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
+									<img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
+
+									<div class="block2-overlay trans-0-4">
+										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+										</a>
+
+										<div class="block2-btn-addcart w-size1 trans-0-4">
+											<!-- Button -->
+											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+												Add to Cart
+											</button>
+										</div>
+									</div>
+								</div>
+
+								<div class="block2-txt p-t-20">
+									<a href=" {{ route('productdetail') }} " class="block2-name dis-block s-text3 p-b-5">
+                                        <center>{{ $g->nama_barang }}</center>
+									</a>
+
+									<span class="block2-price m-text6 p-r-5">
+										<center>Rp.{{ $g->harga }}</center>
+									</span>
+								</div>
+                            </div>  --}}
+                            <!-- End Product-->
+
+                        {{--  </div>  --}}
+<!-- Produk Baru 1 -->
+@foreach ( $gambars as $g )
+<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+
+             <img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
+
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href=" {{ route('productdetail') }} " class="block2-name dis-block s-text3 p-b-5">
+                <center>{{ $g->nama_barang }}</center>
+            </a>
+
+
+            <span class="block2-price m-text6 p-r-5">
+                <center>Rp.{{ $g->harga }}</center>
+            </span>
+        </div>
+    </div>
+</div>
+@endforeach
+
+<!-- Produk Baru 2 -->
+@foreach ( $gambars as $g )
+<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+            <img src= "{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href=" {{ route('productdetail') }} " class="block2-name dis-block s-text3 p-b-5">
+                <center>{{ $g->nama_barang }}</center>
+            </a>
+
+            <span class="block2-price m-text6 p-r-5">
+                <center>Rp.{{ $g->harga }}</center>
+            </span>
+        </div>
+    </div>
+</div>
+@endforeach
+<!-- Produk Baru 3 -->
+@foreach ( $gambars as $g )
+<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
+            <img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                <center>{{ $g->nama_barang }}</center>
+            </a>
+
+            <span class="block2-oldprice m-text7 p-r-5">
+                <center>$29.50</center>
+            </span>
+
+            <span class="block2-newprice m-text8 p-r-5">
+                <center>Rp.{{ $g->harga }}</center>
+            </span>
+        </div>
+    </div>
+</div>
+@endforeach
+<!-- Produk Baru 4 -->
+@foreach ( $gambars as $g )
+<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+            <img src= "{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                <center>{{ $g->nama_barang }}</center>
+            </a>
+
+            <span class="block2-price m-text6 p-r-5">
+                <center>Rp.{{ $g->harga }}</center>
+            </span>
+        </div>
+    </div>
+</div>
+@endforeach
+<!-- Produk Baru 5 -->
+@foreach ( $gambars as $g )
+<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+            <img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                <center>{{ $g->nama_barang }}</center>
+            </a>
+
+            <span class="block2-price m-text6 p-r-5">
+                <center>Rp.{{ $g->harga }}</center>
+            </span>
+        </div>
+    </div>
+</div>
+@endforeach
+<!-- Produk Baru 6 -->
+@foreach ( $gambars as $g )
+<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+            <img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                <center>{{ $g->nama_barang }}</center>
+            </a>
+
+            <span class="block2-price m-text6 p-r-5">
+                <center>Rp.{{ $g->harga }}</center>
+            </span>
+        </div>
+    </div>
+</div>
+@endforeach
+<!-- Produk Baru 7 -->
+@foreach ( $gambars as $g )
+<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+            <img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                <center>{{ $g->nama_barang }}</center>
+            </a>
+
+            <span class="block2-price m-text6 p-r-5">
+                <center>Rp.{{ $g->harga }}</center>
+            </span>
+        </div>
+    </div>
+</div>
+@endforeach
+<!-- Produk Baru 8 -->
+@foreach ( $gambars as $g )
+<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+            <img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                <center>{{ $g->nama_barang }}</center>
+            </a>
+
+            <span class="block2-price m-text6 p-r-5">
+                <center>Rp.{{ $g->harga }}</center>
+            </span>
+        </div>
+    </div>
+</div>
+@endforeach
+<!-- Produk Baru 9 -->
+@foreach ( $gambars as $g )
+<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
+            <img src="{{ url('/data_file/'.$g->file) }}" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                <center>{{ $g->nama_barang }}</center>
+            </a>
+
+            <span class="block2-oldprice m-text7 p-r-5">
+                <center>$29.50</center>
+            </span>
+
+            <span class="block2-newprice m-text8 p-r-5">
+                <center>Rp.{{ $g->harga }}</center>
+            </span>
+        </div>
+    </div>
+</div>
+@endforeach
+<!-- Produk Baru 10 -->
+{{--  <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+            <img src="frontend/images/item-12.jpg" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                Herschel supply co 25l
+            </a>
+
+            <span class="block2-price m-text6 p-r-5">
+                $75.00
+            </span>
+        </div>
+    </div>
+</div>  --}}
+<!-- Produk Baru 11 -->
+{{--  <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+            <img src="frontend/images/item-15.jpg" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                Denim jacket blue
+            </a>
+
+            <span class="block2-price m-text6 p-r-5">
+                $92.50
+            </span>
+        </div>
+    </div>
+</div>  --}}
+<!-- Produk Baru 12 -->
+{{--  <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+    <!-- Block2 -->
+    <div class="block2">
+        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+            <img src="frontend/images/item-15.jpg" alt="IMG-PRODUCT">
+
+            <div class="block2-overlay trans-0-4">
+                <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                    <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                    <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                </a>
+
+                <div class="block2-btn-addcart w-size1 trans-0-4">
+                    <!-- Button -->
+                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="block2-txt p-t-20">
+            <a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+                Denim jacket blue
+            </a>
+
+            <span class="block2-price m-text6 p-r-5">
+                $92.50
+            </span>
+        </div>
+    </div>
+</div>  --}}
+<!-- end-->
 
                     </div>
-                    @endforeach
+
 
 
 					<!-- Pagination -->

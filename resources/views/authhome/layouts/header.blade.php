@@ -306,7 +306,7 @@
 						</span>
 					</li>
 
-					<li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
+					{{--  <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
 						<div class="topbar-child2-mobile">
 							<span class="topbar-email">
 								fashe@example.com
@@ -319,7 +319,7 @@
 								</select>
 							</div>
 						</div>
-					</li>
+					</li>  --}}
 
 					<li class="item-topbar-mobile p-l-10">
 						<div class="topbar-social-mobile">
@@ -332,37 +332,37 @@
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="index.html">Home</a>
-						<ul class="sub-menu">
+						<a href="{{ route('homeauth') }}" >Home</a>
+						{{--  <ul class="sub-menu">
 							<li><a href="index.html">Homepage V1</a></li>
 							<li><a href="home-02.html">Homepage V2</a></li>
 							<li><a href="home-03.html">Homepage V3</a></li>
-						</ul>
+						</ul>  --}}
 						<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="product.html">Shop</a>
+						<a href="{{ route('productauth') }}" >Cart</a>
 					</li>
 
-					<li class="item-menu-mobile">
+					{{--  <li class="item-menu-mobile">
 						<a href="product.html">Sale</a>
+					</li>  --}}
+
+					<li class="item-menu-mobile">
+						<a href="{{ route('cartauth') }}" >Features</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="cart.html">Features</a>
+						<a href="{{ route('blogauth') }}" >Blog</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="blog.html">Blog</a>
+						<a href="{{ route('aboutauth') }}" >About</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="about.html">About</a>
-					</li>
-
-					<li class="item-menu-mobile">
-						<a href="contact.html">Contact</a>
+						<a href="{{ route('contactauth') }}" >Contact</a>
 					</li>
 				</ul>
 			</nav>

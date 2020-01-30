@@ -304,37 +304,37 @@
                 </li>
 
                 <li class="item-menu-mobile">
-                    <a href="index.html">Home</a>
-                    <ul class="sub-menu">
+                    <a href="{{ route('home1') }}" >Home</a>
+                    {{--  <ul class="sub-menu">
                         <li><a href="index.html">Homepage V1</a></li>
                         <li><a href="home-02.html">Homepage V2</a></li>
                         <li><a href="home-03.html">Homepage V3</a></li>
-                    </ul>
+                    </ul>  --}}
                     <i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
                 </li>
 
                 <li class="item-menu-mobile">
-                    <a href="product.html">Shop</a>
+                    <a href="{{ route('product') }}" >Cart</a>
                 </li>
 
-                <li class="item-menu-mobile">
+                {{--  <li class="item-menu-mobile">
                     <a href="product.html">Sale</a>
+                </li>  --}}
+
+                <li class="item-menu-mobile">
+                    <a href="{{ route('cart') }}" >Features</a>
                 </li>
 
                 <li class="item-menu-mobile">
-                    <a href="cart.html">Features</a>
+                    <a href="{{ route('blog') }}" >Blog</a>
                 </li>
 
                 <li class="item-menu-mobile">
-                    <a href="blog.html">Blog</a>
+                    <a href="{{ route('about') }}" >About</a>
                 </li>
 
                 <li class="item-menu-mobile">
-                    <a href="about.html">About</a>
-                </li>
-
-                <li class="item-menu-mobile">
-                    <a href="contact.html">Contact</a>
+                    <a href="{{ route('contact') }}" >Contact</a>
                 </li>
             </ul>
         </nav>

@@ -16,7 +16,9 @@ class PageController extends Controller
 
     public function home1()
     {
-        return view ('frontend.page.home1');
+        $gambars = Gambar::get();
+         // return view ('frontend.page.home1');
+        return view('frontend.page.home1',['gambars' => $gambars]);
     }
 
     public function home2()
