@@ -12,7 +12,7 @@
             </div>
 
             <span class="topbar-child1">
-                Bebas Free Ongkir Setiap Tanggal 1
+                Bebas Ongkir Setiap Tanggal 1
             </span>
 
             {{--  <div class="topbar-child2">
@@ -48,12 +48,12 @@
                             </ul>  --}}
                         </li>
 
-                        <li>
+                        {{--  <li>
                             <a href="{{ route('product') }} ">Shop</a>
-                        </li>
+                        </li>  --}}
 
                         <li>  {{-- class="sale-noti" --}}
-                            <a href=" {{ route('product') }} ">Sale</a>
+                            <a href=" {{ route('product') }} ">Cart</a>
                         </li>
 
                         <li>
