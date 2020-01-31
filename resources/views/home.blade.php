@@ -3,6 +3,9 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+        <div class ="col-md-12 mb-4">
+            <img src="{{ asset('frontend/images/icons/logo-5.jpg')}}" class="rounded mx-auto  d-block" width="700" alt="">
+        </div>
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">Dashboard</div>

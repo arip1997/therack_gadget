@@ -7,12 +7,12 @@ About
 @section('content')
 
 
-	<!-- Title Page -->
+	{{--  <!-- Title Page -->
 	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(frontend/images/heading-pages-06.jpg);">
 		<h2 class="l-text2 t-center">
 			About
 		</h2>
-	</section>
+	</section>  --}}
 
 	<!-- content page -->
 	<section class="bgwhite p-t-66 p-b-38">
@@ -20,7 +20,7 @@ About
 			<div class="row">
 				<div class="col-md-4 p-b-30">
 					<div class="hov-img-zoom">
-						<img src="frontend/images/banner-14.jpg" alt="IMG-ABOUT">
+						<img src="frontend/images/logo-4.jpg" alt="IMG-ABOUT">
 					</div>
 				</div>
 
@@ -30,7 +30,7 @@ About
 					</h3>
 
 					<p class="p-b-28">
-						Phasellus egestas nisi nisi, lobortis ultricies risus semper nec. Vestibulum pharetra ac ante ut pellentesque. Curabitur fringilla dolor quis lorem accumsan, vitae molestie urna dapibus. Pellentesque porta est ac neque bibendum viverra. Vivamus lobortis magna ut interdum laoreet. Donec gravida lorem elit, quis condimentum ex semper sit amet. Fusce eget ligula magna. Aliquam aliquam imperdiet sodales. Ut fringilla turpis in vehicula vehicula. Pellentesque congue ac orci ut gravida. Aliquam erat volutpat. Donec iaculis lectus a arcu facilisis, eu sodales lectus sagittis. Etiam pellentesque, magna vel dictum rutrum, neque justo eleifend elit, vel tincidunt erat arcu ut sem. Sed rutrum, turpis ut commodo efficitur, quam velit convallis ipsum, et maximus enim ligula ac ligula. Vivamus tristique vulputate ultricies. Sed vitae ultrices orci.
+						Platinum Gadget is a our web marketplace project. We make this website to complete our internship at PT. OTAK KANAN. This website contains about gadget marketplace which sells a variety of gadgets such as: smartphones, laptops, tablets, headsets, consoles, camera, etc.
 					</p>
 
 					<div class="bo13 p-l-29 m-l-9 p-b-10">

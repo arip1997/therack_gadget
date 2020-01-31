@@ -32,7 +32,7 @@
         <div class="wrap_header">
             <!-- Logo -->
             <a href= "{{ route('home1') }}" class="logo">
-                <img src="{{ asset('frontend/images/icons/logo.png')}}" alt="IMG-LOGO">
+                <img src="{{ asset('frontend/images/icons/logo-5.jpg')}}"alt="IMG-LOGO">
             </a>
 
             <!-- Menu -->
@@ -60,9 +60,9 @@
                             <a href=" {{ route('cart') }} ">Features</a>
                         </li>
 
-                        <li>
+                        {{--  <li>
                             <a href=" {{ route('blog') }} ">Blog</a>
-                        </li>
+                        </li>  --}}
 
                         <li>
                             <a href=" {{ route('about') }} ">About</a>

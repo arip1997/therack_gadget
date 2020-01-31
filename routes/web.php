@@ -16,7 +16,7 @@
 
 
         //Front End
-Route::get('/' , 'Frontend\PageController@home1')->name('home');
+Route::get('/' , 'Frontend\PageController@home1')->name('home1');
 Route::get('/home1' , 'Frontend\PageController@home1')->name('home1');
 Route::get('/home2' , 'Frontend\PageController@home2')->name('home2');
 Route::get('/home3' , 'Frontend\PageController@home2')->name('home3');
