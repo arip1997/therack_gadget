@@ -99,7 +99,9 @@ class PageController extends Controller
 
     public function productauth()
     {
-        return view ('authhome.page.productauth');
+        $gambars = Gambar::get();
+          // return view ('authhome.page.productauth');
+        return view('authhome.page.productauth',['gambars' => $gambars]);
     }
 
     public function productdetailauth()

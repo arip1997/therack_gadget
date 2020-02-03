@@ -296,7 +296,7 @@ Product
 </div>
 @endforeach
 
-<!-- Produk Baru 2 -->
+{{--  <!-- Produk Baru 2 -->
 @foreach ( $gambars as $g )
 <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
     <!-- Block2 -->
@@ -509,8 +509,8 @@ Product
         </div>
     </div>
 </div>
-@endforeach
-<!-- Produk Baru 8 -->
+@endforeach  --}}
+{{--  <!-- Produk Baru 8 -->
 @foreach ( $gambars as $g )
 <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
     <!-- Block2 -->
@@ -583,7 +583,7 @@ Product
         </div>
     </div>
 </div>
-@endforeach
+@endforeach  --}}
 <!-- Produk Baru 10 -->
 {{--  <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
     <!-- Block2 -->
