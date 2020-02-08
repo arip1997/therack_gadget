@@ -32,7 +32,7 @@
 			<div class="wrap_header">
 				<!-- Logo -->
 				<a href="{{ route('homeauth') }}" class="logo">
-                    <img src="{{ asset('frontend/images/icons/logo.png')}}" alt="IMG-LOGO">
+                    <img src="{{ asset('frontend/images/icons/logo-5.jpg')}}" alt="IMG-LOGO">
 
 				</a>
 

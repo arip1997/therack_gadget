@@ -124,7 +124,7 @@
 
 				<form>
 					<div class="effect1 w-size9">
-						<input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="email@example.com">
+						<input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="email@gmail.com">
 						<span class="effect1-line"></span>
 					</div>
 
@@ -161,7 +161,7 @@
 			</a>
 
 			<div class="t-center s-text8 p-t-20">
-				Copyright © 2018 All right  <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://google.com" target="_blank">Google</a>
+				Copyright © 2020 Platinum Gadget <i class="fa fa-phone" aria-hidden="true"></i> by <a href="https://otakkanan.co.id" target="_blank">PT. OTAK KANAN</a>
 			</div>
 		</div>
 	</footer>

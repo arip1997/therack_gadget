@@ -79,7 +79,7 @@ class PageController extends Controller
     }
 
     public function coba()
-    {
+    { 
         return view ('layouts.coba');
     }
 
@@ -94,7 +94,9 @@ class PageController extends Controller
 
     public function homeauth()
     {
-        return view ('authhome.page.homeauth');
+        $gambars = Gambar::get();
+        // return view ('authhome.page.homeauth');
+        return view('authhome.page.homeauth',['gambars' => $gambars]);
     }
 
     public function productauth()
