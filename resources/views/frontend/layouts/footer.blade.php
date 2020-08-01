@@ -5,10 +5,10 @@
 				<h4 class="s-text12 p-b-30">
 					LOCATION
 				</h4>
-
+                <p>Otak Kanan</p>
 				<div>
 					<p class="s-text7 w-size27">
-						Graha Pena, Ruang 1503, Jl. Ahmad Yani No.88, Ketintang, Kec. Gayungan, Kota SBY, Jawa Timur 60234
+                        Graha Pena, Ruang 1503, Jl. Ahmad Yani No.88, Ketintang, Kec. Gayungan, Kota SBY, Jawa Timur 60234
 					</p>
 
 					<div class="flex-m p-t-30">
